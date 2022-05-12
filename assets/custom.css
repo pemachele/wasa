@@ -1,0 +1,239 @@
+.section-container {
+    display:flex;
+    min-height:100vh;
+    overflow: hidden;
+    width:100%;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items:end;
+    /*background:#E8E2FE;*/
+    justify-content: flex-end;
+}
+.section-1 {
+    background:#E8E2FE;
+}
+.section-2 {
+    background: #6E5ACD;
+}
+
+.section-3 {
+    background: #6E5ACD;
+}
+
+.section-4 {
+    background:#E8E2FE;
+}
+.section-5 {
+    background: #6E5ACD;
+}
+
+.subsection{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.section-flex-container {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+.content-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:start;
+    padding: 10px;
+}
+.heading-1 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color:#523DB4;
+
+}
+.heading-2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    color:#523DB4;
+    margin:10px 0px 2rem 0px;
+}
+.learn-more-text {
+    color:white;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.learn-more-button {
+    display: flex;
+    justify-content: center;
+    background: #FF93DE;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.fit-content {
+    width: fit-content;
+}
+.icon-container {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+.learn-more-container {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+.no-border-bottom{
+    border-bottom:0;!important;
+}
+.custom-card{
+
+    height: 370px;
+    background:#523DB4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+.custom-card:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+}
+
+.card-pic-header {
+    --size: 150px;
+    width: var(--size);
+    height: var(--size);
+    transform: translateY(-50%);
+    /*background: #42caff;*/
+     display: flex;
+    justify-content: center;
+    position: relative;
+    transition: all .3s ease-in-out;
+
+}
+.align-self-end{
+    align-self: end;
+}
+
+.contact-container {
+    width:90%;
+}
+
+@media only screen and (max-width: 768px){
+    .card-pic-header {
+        --size: 100px;
+        width: var(--size);
+        height: var(--size);
+        transform: translateY(-50%);
+        /*background: #42caff;*/
+        position: relative;
+        transition: all .3s ease-in-out;
+
+    }
+
+    .section-container {
+        display:flex;
+        width:100%;
+        height: fit-content;
+        padding: 10px 0px 10px 0px;
+        align-items: center;
+    }
+    .contact-container {
+        width:100%;
+        padding:0;
+    }
+}
+.custom-card-header {
+    text-align: center;
+    color: #FF93DE;;
+    font-size: 1.3rem;
+}
+.custom-card-content {
+    text-align: center;
+    color: white;
+    font-size:1rem;
+}
+.custom-card-wrapper{
+    padding: 0px 35px 0px 35px;
+}
+.section-header {
+    height:20vh;
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-weight: 200;
+}
+.side-picture {
+    background-image: url("/assets/images/34-348781_download-two-women-holding-hands-iphone-emoji-icon.png");
+
+}
+.align-left {
+    text-align: start;!important;
+}
+.custom-small-card {
+ height: 200px;!important;
+}
+.custom-small-card-wrapper{
+    padding: 0px 20px 0px 20px;!important;
+}
+.join-course{
+    font-size:2rem;
+}
+
+.join-course-content {
+    font-size:1.2rem;
+}
+
+
+.watch-us-button{
+    display: flex;
+    justify-content: center;
+    background: #FF93DE;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.fit-content {
+    width: fit-content;
+}
+.icon-container-2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+.watch-us-container {
+    display: flex;
+    justify-content: flex-end;
+}
+ .watch-us-text {
+    color:black;
+    font-weight: bolder;
+    align-self: center;
+}
+
+
+ /*custom scrollbar css*/
+.tile--custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    background-color: #eff1f5;
+}
+
+.tile--custom-scrollbar::-webkit-scrollbar-track{
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.tile--custom-scrollbar::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color:#515769;
+    border:2px solid #eff1f5
+}
+
+  /*end of custom scrollbar*/
+
+
+
