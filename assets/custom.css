@@ -8,6 +8,10 @@
 .header-nav {
     display: flex;
     align-items:end;
+    background:#E8E2FE;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
     /*background:#E8E2FE;*/
     justify-content: flex-end;
 }
@@ -214,7 +218,9 @@
     font-weight: bolder;
     align-self: center;
 }
-
+.body-fonts{
+    font-family: 'Nunito', sans-serif;
+}
 
  /*custom scrollbar css*/
 .tile--custom-scrollbar::-webkit-scrollbar {
